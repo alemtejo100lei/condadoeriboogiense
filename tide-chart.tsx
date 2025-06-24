@@ -295,12 +295,12 @@ export default function TideChart() {
   }, [getFilteredTideData])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-cyan-50 p-4 bg-slate-500">
       <div className="max-w-6xl mx-auto space-y-6">
         <div className="text-center space-y-2">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Waves className="h-8 w-8 text-blue-600" />
-            <h1 className="text-3xl font-bold text-gray-900">Tabela de Marés</h1>
+            <h1 className="text-3xl font-bold text-gray-900">{"P*pu#os"} </h1>
           </div>
           <p className="text-gray-600">Carregue um arquivo XLS com dados de marés para visualizar a tabela</p>
         </div>
